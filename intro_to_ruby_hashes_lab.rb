@@ -13,9 +13,9 @@ end
 
 def pioneer
 third_hash ={
-  name: "Grace Hopper", occupation:"Professor"
+  :name => "Grace Hopper", :occupation =>"Professor"
 }
-return third_hash[name]
+return third_hash[:name]
 end
 
 def id_generator
