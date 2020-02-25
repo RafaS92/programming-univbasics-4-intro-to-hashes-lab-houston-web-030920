@@ -1,9 +1,14 @@
 def new_hash
-  # return an empty hash
+  return new_hash ={}
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  second_hash = {
+    :name =>"Ohmo" ,:last_name => "Matoquita",
+    :name =>"Rafa" ,:last_name => "Valdez"
+    
+  }
+   return second_hash
 end
 
 def pioneer
