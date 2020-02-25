@@ -12,10 +12,10 @@ def my_hash
 end
 
 def pioneer
-pionerr ={
+pioneer ={
   :name => "Grace Hopper", :occupation =>"Professor"
 }
-return pionerr[:name]
+return pioneer[:name]
 end
 
 def id_generator
