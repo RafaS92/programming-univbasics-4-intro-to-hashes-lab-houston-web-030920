@@ -22,10 +22,13 @@ def id_generator
  id_hash ={
    :id => 1, :occupation => "policeman"
  }
+ 
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  baby_hash = {
+    :key => "value"
+  }
 end
 
 def read_from_hash(hash, key)
