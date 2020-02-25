@@ -12,7 +12,10 @@ def my_hash
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+third_hash ={
+  name: "Grace Hopper", occupation:"Professor"
+}
+return third_hash[name:]
 end
 
 def id_generator
