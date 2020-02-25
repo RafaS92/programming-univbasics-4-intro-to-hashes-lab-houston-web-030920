@@ -38,10 +38,10 @@ hash[key]
 end
 
 def update_counting_hash(hash, key)
-  if hash[key].included? 
-    has[key] += 1 
+  if hash[key]
+    has[key] = 1 
   else 
-    hash[key] = 1
+    hash[key] += 1
   end
   
   # given a hash an a key as parameters, return an updated hash
