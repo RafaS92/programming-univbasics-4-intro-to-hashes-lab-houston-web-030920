@@ -27,7 +27,7 @@ end
 
 def my_hash_creator(key, value)
   baby_hash = {
-    :key => value
+    key => value
   }
   
   return baby_hash
